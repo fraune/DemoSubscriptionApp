@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F5E52C0D2DC859AD003A90E8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E52C0C2DC859AD003A90E8 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F5D3B6C32DC8589600F95AA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		F5D3B6B52DC8589500F95AA7 /* DemoSubscriptionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSubscriptionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D3B6C22DC8589600F95AA7 /* DemoSubscriptionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSubscriptionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D3B6CC2DC8589600F95AA7 /* DemoSubscriptionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSubscriptionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E52C0C2DC859AD003A90E8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E52C0D2DC859AD003A90E8 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				F5D3B6B72DC8589500F95AA7 /* DemoSubscriptionApp */,
 				F5D3B6C52DC8589600F95AA7 /* DemoSubscriptionAppTests */,
 				F5D3B6CF2DC8589600F95AA7 /* DemoSubscriptionAppUITests */,
+				F5E52C0B2DC859AD003A90E8 /* Frameworks */,
 				F5D3B6B62DC8589500F95AA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				F5D3B6CC2DC8589600F95AA7 /* DemoSubscriptionAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E52C0B2DC859AD003A90E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E52C0C2DC859AD003A90E8 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.fraune.demosubscriptionapp.DemoSubscriptionApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fraune.demosubscriptionapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.fraune.demosubscriptionapp.DemoSubscriptionApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fraune.demosubscriptionapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
